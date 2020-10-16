@@ -106,7 +106,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void clickGetStarted(View view) {
-        Intent i = new Intent(WelcomeActivity.this, MainActivitymenu.class);
+        Intent i = new Intent(WelcomeActivity.this, LoginActivity.class);
         startActivity(i);
     }
 
